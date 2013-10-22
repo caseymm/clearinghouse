@@ -1,0 +1,25 @@
+.mainBox{
+    height: 700px;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.pushDown{
+    font-size: 30px;
+}
+
+.gray{
+    background-color: #cccccc;
+}
+
+.short{
+    max-width: 200px;
+}
+
+.tall{
+    height: 100px;
+}
+
+.form-control{
+    margin: 0px 0px 10px 0px;
+}
