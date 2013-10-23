@@ -82,23 +82,23 @@
 
 <div id="search" class="tab-pane">
     <br />
-    <div class="row">
+    <div id="mainFilter" class="row">
         <div class="col-sm-4 col-xs-6">
-            <div class="well height bump">
+            <div id="photo" class="well height bump">
                 <span class="sixers">
                     Photo
                 </span>
             </div>
         </div>
         <div class="col-sm-4 col-xs-6">
-            <div class="well height bump">
+            <div id="video" class="well height bump">
                 <span class="sixers">
                     Video
                 </span>
             </div>
         </div>
         <div class="col-sm-4 col-xs-6">
-            <div class="well height bump">
+            <div id="web" class="well height bump">
                 <span class="sixers">
                     Web Based
                 </span>
@@ -106,27 +106,200 @@
         </div>
     <!-- splits rows-->
         <div class="col-sm-4 col-xs-6">
-            <div class="well height bump">
+            <div id="design" class="well height bump">
                 <span class="sixers">
                     3D Design
                 </span>
             </div>
         </div>
         <div class="col-sm-4 col-xs-6">
-            <div class="well height bump">
+            <div id="motion" class="well height bump">
                 <span class="sixers">
                     Motion Graphics
                 </span>
             </div>
         </div>
         <div class="col-sm-4 col-xs-6">
-            <div class="well height bump">
+            <div id="gdes" class="well height bump">
                 <span class="sixers">
                     Graphic Design
                 </span>
             </div>
         </div>
     </div>
+    
+    <div id="secondaryFilter">
+        
+        <div class="col-sm-3">
+            <a type="button" id="back" class="btn btn-primary">Back to main filter</a>
+            
+            <div class="well">
+                <h5>Skills</h5>
+                
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="cPhoto" name="cb">
+                          Photo
+                        </label>
+                    </div>
+                    
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="cVideo" name="cb">
+                          Video
+                        </label>
+                    </div>
+                    
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="cWeb" name="cb">
+                          Web Based
+                        </label>
+                    </div>
+                    
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="cDesign" name="cb">
+                          3D Design
+                        </label>
+                    </div>
+                    
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="cMotion" name="cb">
+                          Motion Graphics
+                        </label>
+                    </div>
+                    
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="cGraphic" name="cb">
+                          Graphic Design
+                        </label>
+                    </div>
+                
+                <!--<h5>Location</h5>
+                <h5>Rating</h5>-->
+            </div>
+        </div>
+        
+        <div class="col-sm-9">
+            <div id="cPhoto" class="desc">
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Photo</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Photo</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Photo</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Photo</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+            </div>
+            
+            
+            <div id="cVideo" class="desc">
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Video</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Video</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Video</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+            </div>
+            
+            
+            <div id="cWeb" class="desc">
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Web</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Web</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Web</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+            </div>
+            
+            
+            <div id="cDesign" class="desc">
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">3D Design</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">3D Design</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+            </div>
+            
+            
+            <div id="cMotion" class="desc">
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Motion Graphics</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Motion Graphics</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+            </div>
+            
+            
+            <div id="cGraphic" class="desc">
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Graphic Design</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Graphic Design</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Graphic Design</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+                <div class="well well-sm card">
+                    <h4 class="noMargin">Name of Student<span class="right grayText">Graphic Design</span></h4>
+                    <h5>School</h5>
+                    <p>Some annoying text about why he or she thinks they're God's gift to man.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
 </div>
 
 
@@ -141,5 +314,29 @@
 
 <!--ends container-->
 </div>
+
+<script>
+    $(document).ready(function() {
+        $('#secondaryFilter').hide(); 
+    });
+    
+    $('#back').click(function() {
+        $('#mainFilter').show();
+        $('#secondaryFilter').hide();
+      });
+    
+    $('#photo').click(function() {
+        $('#mainFilter').hide();
+        $('#secondaryFilter').show();
+      });
+    
+    $("input[name$='cb']").click(function() {
+        var test = $(this).val();
+        //$("div.desc").toggle();
+        $("#"+test).toggle();
+    });
+
+</script>
+
 </body>
 </html>

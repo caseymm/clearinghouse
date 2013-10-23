@@ -12,6 +12,10 @@
     background-color: #cccccc;
 }
 
+.grayText{
+    color: #bababa;
+}
+
 .short{
     max-width: 200px;
 }
@@ -49,4 +53,18 @@
 
 .sixers{
     font-size: 24px;
+}
+
+#back{
+    margin-bottom: 20px;
+}
+
+.desc{ display: none; }
+
+.card{
+    height: 110px;
+}
+
+.noMargin{
+    margin: 0px 0px;
 }
