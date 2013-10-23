@@ -138,42 +138,42 @@
                 
                     <div class="checkbox">
                         <label>
-                          <input type="checkbox" value="cPhoto" name="cb">
+                          <input type="checkbox" checked="no" value="cPhoto" name="cb">
                           Photo
                         </label>
                     </div>
                     
                     <div class="checkbox">
                         <label>
-                          <input type="checkbox" value="cVideo" name="cb">
+                          <input type="checkbox" checked="no" value="cVideo" name="cb">
                           Video
                         </label>
                     </div>
                     
                     <div class="checkbox">
                         <label>
-                          <input type="checkbox" value="cWeb" name="cb">
+                          <input type="checkbox" checked="no" alue="cWeb" name="cb">
                           Web Based
                         </label>
                     </div>
                     
                     <div class="checkbox">
                         <label>
-                          <input type="checkbox" value="cDesign" name="cb">
+                          <input type="checkbox" checked="no" value="cDesign" name="cb">
                           3D Design
                         </label>
                     </div>
                     
                     <div class="checkbox">
                         <label>
-                          <input type="checkbox" value="cMotion" name="cb">
+                          <input type="checkbox" checked="no" value="cMotion" name="cb">
                           Motion Graphics
                         </label>
                     </div>
                     
                     <div class="checkbox">
                         <label>
-                          <input type="checkbox" value="cGraphic" name="cb">
+                          <input type="checkbox" checked="no" value="cGraphic" name="cb">
                           Graphic Design
                         </label>
                     </div>
@@ -328,6 +328,37 @@
     $('#photo').click(function() {
         $('#mainFilter').hide();
         $('#secondaryFilter').show();
+        $('#cPhoto').show().is(':checked');
+      });
+    
+    $('#video').click(function() {
+        $('#mainFilter').hide();
+        $('#secondaryFilter').show();
+        $('#cVideo').show().is(':checked');
+      });
+    
+    $('#web').click(function() {
+        $('#mainFilter').hide();
+        $('#secondaryFilter').show();
+        $('#cWeb').show().is(':checked');
+      });
+    
+    $('#design').click(function() {
+        $('#mainFilter').hide();
+        $('#secondaryFilter').show();
+        $('#cDesign').show().is(':checked');
+      });
+    
+    $('#motion').click(function() {
+        $('#mainFilter').hide();
+        $('#secondaryFilter').show();
+        $('#cMotion').show().is(':checked');
+      });
+    
+    $('#Graphic').click(function() {
+        $('#mainFilter').hide();
+        $('#secondaryFilter').show();
+        $('#cGraphic').show().is(':checked');
       });
     
     $("input[name$='cb']").click(function() {
