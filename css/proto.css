@@ -1,3 +1,11 @@
+body{
+    background-image: url(../images/debut_light.png);
+}
+
+.well{
+    background-color: #FAFAFA;
+}
+
 .mainBox{
     height: 700px;
     text-align: center;
@@ -72,3 +80,18 @@
 .help{
     height:400px;
 }
+
+.pick{
+    padding-top:170px;
+}
+
+.well{
+    cursor: pointer;
+}
+
+.red{ color: #b2000b;}
+.orange{ color:#FF6700;}
+.blue{ color:#000AB3;}
+.green{ color:#2ccc14;}
+.purple{ color:#621575;}
+.yellow{ color:#d1b900;}
