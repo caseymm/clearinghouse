@@ -1,9 +1,45 @@
+@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
 body{
     background-image: url(../images/debut_light.png);
 }
 
+.glyphicon-star{
+    font-size: 16px;
+    color: #ECD645;
+}
+
+.glyphicon-star-empty{
+    font-size: 16px;
+    color: #d4d4d4;
+}
+
+.stars{
+    margin: 0px 5px 0px 10px;
+}
+
+.line{
+    text-decoration: underline;
+}
+
+.wellB {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
 .well{
     background-color: #FAFAFA;
+}
+
+.well:hover{
+    background-color: #373737;
+    color: #ffffff;
 }
 
 .mainBox{
@@ -70,7 +106,11 @@ body{
 .desc{ display: none; }
 
 .card{
-    height: 110px;
+    height: 90px;
+}
+
+.cardCart{
+    height: 140px;
 }
 
 .noMargin{
@@ -95,3 +135,25 @@ body{
 .green{ color:#2ccc14;}
 .purple{ color:#621575;}
 .yellow{ color:#d1b900;}
+
+.spacing{
+    line-height: 24px;
+    margin: 0px;
+}
+
+.cart{
+    display: inline;
+    font-size: 30px;
+    margin: 5px 0px 10px 0px;
+    cursor: pointer;
+    color: #373737;
+}
+
+.cart:hover{
+    color: #e3e3e3;
+}
+
+.gray{
+    color: #c9c9c9;
+    background-color: #ffffff;
+}
