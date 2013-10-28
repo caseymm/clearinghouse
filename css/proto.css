@@ -157,3 +157,32 @@ body{
     color: #c9c9c9;
     background-color: #ffffff;
 }
+
+.innerPadding{
+    padding: 0px 0px 10px 10px;
+}
+
+.workExamples{
+    background-image: url(../images/pinstriped_suit.png);
+    width: 100%;
+    height: 120px;
+    margin: 0px 0px 20px 0px;
+}
+
+.workTitle{
+    width: 30%;
+    height: 40px;
+    background-color: #c4c4c4;
+    opacity: 0.7;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.small{
+    font-size: 11px;
+}
+
+#review{
+    position: relative;
+    margin-top: -9px;   
+}

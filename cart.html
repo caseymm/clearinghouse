@@ -48,7 +48,43 @@
 
 <div class="row">
     <div class="col-xs-12">
-                <div class="well well-sm cardCart">
+                <div class="well well-sm cardCart" data-toggle="modal" href="#cartForm">
+                    <h4 class="noMargin">J. Doe
+                        <span class="stars">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </span>
+                    <h5>School</h5>
+                    <h5 style="display:inline">Skills:</h5> <p style="display:inline">Skill 1, Skill 2, Skill 3, Skill 4, Skill 5, Skill 6</p>
+                    <br />
+                    <br />
+                    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+                    at vero eros et.</p>
+                </div>
+                
+                <div class="well well-sm cardCart" data-toggle="modal" href="#cartForm">
+                    <h4 class="noMargin">J. Doe
+                        <span class="stars">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </span>
+                    <h5>School</h5>
+                    <h5 style="display:inline">Skills:</h5> <p style="display:inline">Skill 1, Skill 2, Skill 3, Skill 4, Skill 5, Skill 6</p>
+                    <br />
+                    <br />
+                    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+                    at vero eros et.</p>
+                </div>
+                
+                <div class="well well-sm cardCart" data-toggle="modal" href="#cartForm">
                     <h4 class="noMargin">J. Doe
                         <span class="stars">
                             <span class="glyphicon glyphicon-star"></span>
@@ -67,6 +103,54 @@
                 </div>
     </div>
 </div>
+                
+<!-- Modal -->
+            <div class="modal" id="cartForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Job Description Form</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                    <input type="text" class="form-control short" placeholder="Job Title">
+                    
+                    <textarea class="form-control" placeholder="Brief Job Description" rows="3"></textarea>
+                    
+                    <input type="text" class="form-control short" placeholder="Job Expiration Date">
+                    
+                    <input type="text" class="form-control short" placeholder="Project Due Date">
+                    
+                    <h5>Project Specifications</h5>
+                    <div class="wellB">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <input type="text" class="form-control" rows="3" placeholder="Text Description">
+                            </div>
+                            <div class="col-xs-6">
+                                <input type="file" class="form-control" placeholder="Text Description">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <input type="text" class="form-control short" placeholder="Proposed price per hour">
+                        
+                    <div class="checkbox">
+                        <label>
+                          Accept Terms <input type="checkbox" value="terms" name="termsBox">
+                        </label>
+                    </div>
+                    
+                    <!--<button type="submit" class="btn btn-default btn-lg">Submit</button>-->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <a type="button" data-dismiss="modal" type="button" class="btn btn-primary">Submit</a>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->                
 
 </div>
 </body>
